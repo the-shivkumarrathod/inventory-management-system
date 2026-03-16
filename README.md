@@ -1,25 +1,60 @@
-## Inventory Management System
+# Inventory Management System
 
-A desktop-based Inventory Management System built using Java Swing and MySQL.
+A desktop-based **Inventory Management System** built using **Java Swing and MySQL**.  
+This application allows users to manage product inventory efficiently with features like adding, updating, deleting items and monitoring low stock.
+
+---
 
 ## Features
-- User Login System
-- Add Inventory Items
-- Update Inventory Items
+
+- Secure User Login System
+- Add New Inventory Items
+- Update Existing Inventory Items
 - Delete Inventory Items
-- JTable Data Display
-- Low Stock Alert
+- Inventory Table Display using JTable
+- Low Stock Alert System
 - MySQL Database Integration
 
+---
+
 ## Technologies Used
+
 - Java
-- Java Swing
+- Java Swing (GUI)
 - MySQL
 - JDBC
 - Eclipse IDE
 
-## Database
-Import the `inventory_db.sql` file into MySQL before running the project.
+---
+
+## Project Structure
+
+inventory-management-system  
+│  
+├── src  
+│   ├── gui  
+│   │   ├── LoginGUI.java  
+│   │   └── InventoryGUI.java  
+│   │  
+│   ├── db  
+│   │   └── DBConnection.java  
+│   │  
+│   └── main  
+│       └── TestConnection.java  
+│  
+└── inventory_db.sql  
+
+---
+
+## Database Setup
+
+1. Open MySQL Workbench  
+2. Create a database  
+3. Import the file **inventory_db.sql**  
+4. Run the project in Eclipse  
+
+---
 
 ## Author
+
 Shivkumar Rathod
