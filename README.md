@@ -58,3 +58,17 @@ inventory-management-system
 ## Author
 
 Shivkumar Rathod
+
+## Screenshots
+
+### Login Screen
+![Login](login.png)
+
+### Inventory Dashboard
+![Dashboard](dashboard.png)
+
+### Add Item
+![Add Item](add-item.png)
+
+### Low Stock Alert
+![Low Stock](low-stock.png)
