@@ -11,7 +11,7 @@ public class DBConnection {
 
             String url = "jdbc:mysql://localhost:3306/inventory_db";
             String user = "root";
-            String password = "Msql@88$";   // change if your MySQL password is different
+            String password = "YOUR_PASSWORD";   // change if your MySQL password is different
 
             Connection conn = DriverManager.getConnection(url, user, password);
 
